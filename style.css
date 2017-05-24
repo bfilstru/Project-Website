@@ -41,6 +41,7 @@ li a:hover {
     color: white;
 }
 
+
 /* FONTS */
 
 .font-barrio{
@@ -51,12 +52,43 @@ li a:hover {
     font-family: 'PT Sans', sans-serif;
 }
 
+/* END OF FONTS */
+
+.vertical-nav-bar-offset{
+    padding: 0px 0px 0px 100px;
+}
+
+.kitty{
+     width: 100px;
+     height:100px;
+     display:block;
+     background:transparent url('images/cowboy-cat.png') center top no-repeat;
+}
+
+.kitty:hover{
+    background-image: url('images/cat-in-a-box.png');
+}
+
+.fill-height {
+    min-height: 100%; 
+    width: auto;
+}
+
+.fill-width {
+    min-width: 100%;
+    height: auto;
+}
+
 .large-font{
     font-size: 40px;
 }
 
 .small-padding{
     padding: 20px 20px 20px 20px; 
+}
+
+.small-padding.vertical-nav-bar-offset{
+    padding: 20px 20px 20px 100px;
 }
 
 .active {
@@ -88,6 +120,18 @@ li a:hover {
     height: 100px;
 }
 
+.display-block{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .text-center{
     text-align: center;
 }
+
+
+
+
+
+/* @media screen and (max) */
